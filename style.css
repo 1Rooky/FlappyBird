@@ -1,0 +1,11 @@
+body {
+    background-color: #E9FCD9;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
