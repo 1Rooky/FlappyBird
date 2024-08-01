@@ -119,7 +119,6 @@ function create() {
   
 }
 
-
 function update() {
 
   this.groundF.x -= 1;
@@ -187,7 +186,6 @@ function gameOver(){
      }) 
 } 
 
-
 function createPipe(scene) {
   Yoffset = Phaser.Math.Between(-120, 120);
   Min_Gap_Between_Pipes = Phaser.Math.Between(120, 150);
@@ -222,8 +220,6 @@ function createPipe(scene) {
     nextPipe = Pipes.children.entries[0];
   }
 }
-
-
 
 function updateScore(scene) {
 
